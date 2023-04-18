@@ -1,0 +1,174 @@
+.footer_height {
+   height: auto;
+    width: 100%;
+    background-color: #4A554C;
+}
+
+.footer_text_bottom {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#text-color p {
+    color: white;
+}
+
+#text-color ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: start;
+}
+
+#text-color ul {
+    padding-left: 0px;
+}
+
+#text-color a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.border_class {
+    border: 1px solid #6A6A6A;
+   
+    margin-bottom: 30px;
+}
+/* @media only screen and (max-width: 768px) {
+    .border_class {
+       
+            
+    }
+} */
+
+.footer_margin {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    /* padding-left: 218px;
+    padding-right: 218px; */
+}
+@media only screen and (min-width: 768px) {
+    .footer_margin {
+        padding-top: 40px;
+        /* padding-left: 218px;
+        padding-right: 218px; */
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer_margin {
+        padding-top: 140px;
+        /* padding-left: 218px;
+        padding-right: 218px; */
+    }
+}
+
+.footer_tagline_margin {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    .footer_tagline_margin {
+        margin-bottom: 228px;
+    }
+}
+
+#text-color h3 {
+    font-family: Georgia;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.hours_p {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer_addres_font {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.footer_addres_font_mobile {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_hours_font {
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #text-color h3 {
+        font-family: Georgia;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_tagline_margin {
+
+        font-family: Georgia;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #text-color ul li {
+
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .border_mobile {
+        border: 1px solid rgb(255, 255, 255);
+    }
+}

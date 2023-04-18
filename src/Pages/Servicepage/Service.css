@@ -1,0 +1,190 @@
+* {
+  position: relative;
+  top: 0px;
+}
+.liststyle{
+  list-style: none !important;
+}
+.service_banner {
+  background-image: linear-gradient(
+      89.78deg,
+      rgba(27, 60, 66, 0.8) 0.14%,
+      rgba(58, 58, 58, 0.05) 99.76%
+    ),
+    url(../../images/Services/servicebanner.png);
+  background-repeat: no-repeat;
+  height: 480px;
+  background-size: cover;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .service_banner{
+    background-image: linear-gradient(89.78deg, rgba(27, 60, 66, 0.8) 0.14%, rgba(58, 58, 58, 0.05) 99.76%), url(../../images/Services/mobile.png);
+    background-repeat: no-repeat;
+
+ 
+  width: 100%;
+
+}
+  
+  }
+.service_square {
+  background-image: url(../../images/Services/Shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 350px;
+  width: 70%;
+}
+
+@media only screen and (max-width: 992px) {
+  .service_banner_img {
+    background-image: linear-gradient(
+        89.78deg,
+        rgba(27, 60, 66, 0.8) 0.14%,
+        rgba(58, 58, 58, 0.05) 99.76%
+      ),
+      url(../../images/Services/mobile1.png);
+    background-repeat: no-repeat;
+    height: 480px;
+    background-size: cover;
+    width: 100%;
+  }
+  .service_square_img {
+    background-image: url(../../images/Services/Shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 992px) {
+  .forms_font {
+    font-family: Georgia;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .forms_font1 {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.service_banner_font1 {
+  font-family: Georgia;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media only screen and (max-width: 576px) {
+  .service_banner_font1_mobile {
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    text-align: left;
+  }
+  .service_banner_font2_mobile {
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    text-align: left;
+  }
+}
+
+.service_banner_font2 {
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  z-index: 0;
+}
+
+.service_position {
+  margin-top: 120px;
+}
+
+.service_position3 {
+  margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service_position {
+    margin-top: 50px;
+  }
+
+  .service_position3 {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .service_position {
+    margin-top: 120px;
+
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+.service_sec1_font1 {
+  font-family: Georgia;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+ul li {
+  list-style: disc;
+}
+
+.service_font2 {
+  font-family: Georgia;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .service_sec1_font1_mobile {
+    font-family: Georgia;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .service_font2_mobile {
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.liststyle_sec3 li {
+  list-style: none;
+}

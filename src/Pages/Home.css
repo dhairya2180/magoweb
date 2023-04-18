@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.home_bg_img{
+    /* background-image: url(../images/dermatologist_main/pexels-cottonbro-studio-7578803\ 1.png); */
+    background: linear-gradient(89.78deg, rgba(27, 60, 66, 0.8) 0.14%, rgba(58, 58, 58, 0.05) 99.76%),url(../images/dermatologist_main/pexels-cottonbro-studio-7578803\ 1.png);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) {
+    .home_bg_img{
+        /* background-image: url(../images/dermatologist_main/pexels-cottonbro-studio-7578803\ 1.png); */
+        background: linear-gradient(89.78deg, rgba(27, 60, 66, 0.8) 0.14%, rgba(58, 58, 58, 0.05) 99.76%),url(../images/dermatologist_main/mobile.png);
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.titile_font{
+    font-family: Georgia;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.home_square {
+    background-image: url(../images/About/Shape.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain;
+    width: 100%;
+    height: 350px;
+  }
+@media only screen and (max-width: 1400px) and (min-width: 992px) {
+    .titile_font{
+        font-family: Georgia;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+  
+    
+  }
+.home_font_size{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+}
+.home_font_size1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 27.27px;
+    font-size: 24px;
+}
+.home_btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.72px;
+}
+.btn_bg{
+   border: 0px solid white;
+   padding: 20px 20px 20px 20px;
+
+}
+.bg_home_square{
+    background-image: url(../images/dermatologist_main/Shape.png);
+    background-repeat: no-repeat;
+    height: 403px;
+  
+
+}
+.square_padding{
+    padding: 110px 0px 110px 40px;
+}
+.line_padding{
+    padding-left: 40px;
+    margin-top: 38px;
+}
+.line_margin{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.bg_home_margin{
+    margin-top: 103px;
+}
+
+/* HOME SECTION2 CSS START */
+
+#sec2_fonttitle  span{
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#6A6A6A;
+}
+
+.sec2_p {
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6A6A6A;
+}
+.sec2_title {
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+
+    .sec2_title{
+        font-family: Georgia;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+    
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+
+
+    .sec2_title {
+        font-family: Georgia;
+font-size: 22px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+    
+    }
+    .sec2_p {
+        font-family: Georgia;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #6A6A6A;
+    }
+
+    .sec3_img{
+   position: center;
+   max-width: 100%;
+   height: auto;
+   padding: 10px;
+}
+    
+}
+
+.section2_bg{
+    background-image: url(../images/dermatologist_main/dots.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.sec2_position{
+    padding-top: 139px;
+    padding-bottom: 139px;
+}
+/* .section2_leftpadding{
+   padding-left: 82px;
+} */
+
+/* HOME SECTION2 CSS END */
+/* section3 css */
+.text_dark{
+    color: #3A3A3A;
+}
+.sec3_font1{
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.sec3_font2 {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sec3bg{
+    position: absolute;
+    right: 0px;
+    top: -50px;
+    z-index: -1;
+   
+}
+.sec3bg_left{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 100%;
+  height: auto;
+}
+.sec3bg_right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 100%;
+  height: auto;
+}
+.sec3_img{
+   position: center;
+   max-width: 100%;
+   height: auto;
+   padding: 0px;
+}
+/* section3 css  end*/
+/* section4 */
+.sec4_position{
+    padding: 150px 0;
+}
+ .sec4_btn {
+     font-family: Georgia;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+
+     color: #B19A73;
+     background-color: #B19A7333;
+     padding: 12px 30px;
+     border: 0px solid;
+ }
+ .sec4_font{
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;    
+ }
+.sec4_lastfont{
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #6A6A6A;
+}
+.sec4_btn_knowmore {
+    background-color: #46564C;
+    padding: 23.5px 42.5px;
+    border: 0px solid;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* section4 end */
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .titile_font{
+        font-family: Georgia;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.025em;
+        text-align: left;
+        
+    }
+    .home_font_size1{
+        font-family: Georgia;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.025em;
+text-align: center;
+
+    }
+
+    .home_btn{
+        font-family: Georgia;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+   
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+
+
+    .titile_font{
+        font-family: Georgia;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0.025em;
+        text-align: left;
+        
+    }
+    .home_font_size1{
+        font-family: Georgia;
+font-size: 22px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+    }
+
+    .home_btn{
+        font-family: Georgia;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+
+
+
+}
